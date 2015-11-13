@@ -1,17 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+// From standard imports
+@import 'reset';
+@import 'presets';
 
-
-//Color palette reference
-$navy-blue: #003366;
-$white: #ffffff;
-$yellow: #ffff00;
-
+// From main.scss
 html, body {
     height: 100%;
     background: $navy-blue;
-    font-family: roboto;
+    font-family: $font-family;
     color: $yellow;
+    padding: $body-padding;
 }
+
 body {
     
 }

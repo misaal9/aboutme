@@ -32,7 +32,7 @@
     // to watch html changes
     gulp.task("scss", function () {
         console.log("scss");
-        return gulp.src("app/**/*.scss")
+        return gulp.src("app/scss/*.scss")
             .pipe(sass())
             .pipe(concat("style.css"))
             .pipe(gulp.dest("app/css/"))
