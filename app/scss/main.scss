@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+//Color palette reference
+$navy-blue: #003366;
+$white: #ffffff;
+$yellow: #ffff00;
+
+html, body {
+    height: 100%;
+    background: $navy-blue;
+    font-family: roboto;
+    color: $yellow;
+}
+body {
+    
+}
